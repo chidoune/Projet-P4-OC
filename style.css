@@ -56,6 +56,10 @@ a:hover {
     padding: 20px 50px;
 }
 
+.logo1 {
+    width: 90%;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -1102,10 +1106,83 @@ h4 {
 
 @media screen and (max-width: 767px) {
 
+.logo1 {
+    width: 35%;
+}
+
+.logo2 {
+    width: 20%;
+}
+
 #bloc-1-hero h1 {
     font-size: 35px;
 }
 
+.bloc-lg {
+    padding-top: 60px;
+}
 
+.portfolio-row {
+    margin-top: 20px;
+}
+
+.img3-4 {
+    width: 85%;
+}
+
+.center-link {
+    display: flex !important;
+    justify-content: center;
+}
+
+.portfolio-thumb {
+    margin-bottom: 5px;
+}
+
+.mg-md {  
+    margin-bottom: 3px;
+}
+
+.paddbot40 {
+    padding-bottom: 45px;
+}
+
+.marginbot10 {
+    margin-bottom: 20px;
+}
+
+.col-sm-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.font20 {
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.font18 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+p {
+    font-size: 13px;
+}
+
+.larg100 {
+    width: 100%;
+}
+
+.black-background {
+    padding: 20px 10px;
+}
 
 }
