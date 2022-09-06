@@ -814,6 +814,10 @@ h4 {
     background-color: #F3976C;
 }
 
+.bgc-atomic-tangerine1 {
+    background: rgba(48, 42, 29, 0.616);
+}
+
 .tc-white {
     color: #F3976C!important;
 }
@@ -892,10 +896,6 @@ a {
 }
 
 @media (max-width: 767px) {
-    /*.bloc {
-        padding-left: 0px;
-        padding-right: 0px;
-    }**/
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -914,7 +914,7 @@ a {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -924,7 +924,7 @@ a {
     .b-parallax {
         background-attachment: scroll;
     }
-}
+}*/
 
 @media (max-width: 991px) {
     .container {
@@ -938,22 +938,22 @@ a {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /*.bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    }*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    .bloc-fill-screen .fill-bloc-top-edge,
+    /*.bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
-}
+}*/
 
 .text-align {
     text-align: center;
@@ -1135,8 +1135,8 @@ a {
     padding-right: 6%;
 }
 
-.font50 {
-    font-size: 50px;
+.font45 {
+    font-size: 45px;
 }
 
 .font24 {
@@ -1260,5 +1260,5 @@ p {
 .paddbot15 {
 padding-bottom: 15px;
 }
-
+}
 }
