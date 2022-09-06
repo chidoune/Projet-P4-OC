@@ -60,6 +60,10 @@ a:hover {
     width: 90%;
 }
 
+.logo3 {
+    height: 40px;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -864,11 +868,34 @@ h4 {
     background-image: url("img/image-de-presentation-opt.webp");
 }
 
-@media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+.display-center {
+    display: flex;
+    justify-content: center;
+}
+
+.navp2 {
+    justify-content: space-between;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    top: 22px;
+    right: 14%;
+}
+
+.margnav2 {
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    /*.bloc {
+        padding-left: 0px;
+        padding-right: 0px;
+    }**/
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -926,6 +953,11 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+}
+
+.text-align {
+    text-align: center;
+    position: relative;
 }
 
 @media (max-width: 767px) {
@@ -1080,7 +1112,7 @@ h4 {
     }
 }
 
-/* rajout RHI */
+/****************************** rajout RHI *************************/
 @media screen and (min-width:768px) {
 
 .container {
@@ -1102,6 +1134,31 @@ h4 {
 .col-sm-6 {
     padding-right: 6%;
 }
+
+.font50 {
+    font-size: 50px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font16{
+    font-size: 16px;
+}
+
+.interline {
+    line-height: 2.5rem;
+}
+
+.bloc {
+    width: auto;
+}
+
+#message {
+    width: 90%;
+}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -1112,6 +1169,10 @@ h4 {
 
 .logo2 {
     width: 20%;
+}
+
+.text-alignp2 {
+    text-align: center !important;
 }
 
 #bloc-1-hero h1 {
@@ -1164,14 +1225,12 @@ i {
 .font20 {
     font-size: 17px;
     font-weight: bold;
-
 }
 
 .font18 {
     font-size: 16px;
     font-weight: bold;
 }
-
 
 p {
     font-size: 13px;
@@ -1183,6 +1242,23 @@ p {
 
 .black-background {
     padding: 20px 10px;
+}
+
+.paddp2 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.font14 {
+    font-size: 14px !important;
+}
+
+#message {
+    width: 90%;
+}
+
+.paddbot15 {
+padding-bottom: 15px;
 }
 
 }
